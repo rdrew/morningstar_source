@@ -4,6 +4,7 @@
 # Useful .gitignore templates: https://github.com/github/gitignore
 .swp
 .swo
+dist
 node_modules
 .cache
 wp_backup
