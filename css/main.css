@@ -11,6 +11,14 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face {
+  font-family: "audrey";
+
+  font-display: swap;
+
+  src: url("../fonts/audrey/audrey-normal.woff") format("woff");
+}
+
 html {
   color: #222;
   font-size: 1em;
