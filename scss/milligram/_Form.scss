@@ -18,7 +18,8 @@ input:not([type]),
 textarea,
 select {
   -webkit-appearance: none; // sass-lint:disable-line no-vendor-prefixes
-  background-color: transparent;
+  //background-color: transparent;
+  background-color: white;
   border: 0.1rem solid $color-quaternary;
   border-radius: 0.4rem;
   box-shadow: none;
