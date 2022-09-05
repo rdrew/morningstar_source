@@ -1,0 +1,13 @@
+nav.main {
+  border-bottom: 4px double #333;
+  margin-bottom: 2em;
+  ul {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    margin-bottom: 20px;
+    li {
+      margin: 0 1em;
+    }
+  }
+}
