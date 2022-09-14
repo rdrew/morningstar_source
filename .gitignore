@@ -5,6 +5,7 @@
 .swp
 .swo
 dist
+old
 node_modules
 .cache
 wp_backup
