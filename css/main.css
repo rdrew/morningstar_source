@@ -899,4 +899,67 @@ nav.main ul {
 nav.main ul li {
   margin: 0 1em;
 }
+
+/*
+ *dropdown
+ */
+/* Style The Dropdown Button */
+.dropdown-menu a {
+  text-decoration: none;
+}
+.dropdown-menu nav {
+  font-family: monospace;
+}
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.dropdown-menu li {
+  background: #fff7e8;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+.dropdown-menu li:hover,
+.dropdown-menu li:focus-within {
+  background: red;
+  background: #ffe5b5;
+  cursor: pointer;
+}
+.dropdown-menu li:focus-within a {
+  outline: none;
+}
+.dropdown-menu ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+.dropdown-menu ul li:hover > ul,
+.dropdown-menu ul li:focus-within > ul,
+.dropdown-menu ul li ul:hover,
+.dropdown-menu ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.dropdown-menu ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+#harmony_sailing {
+  border: 4px double #333;
+  padding: 4px;
+  background: #fff;
+}
 /*# sourceMappingURL=main.css.map */
